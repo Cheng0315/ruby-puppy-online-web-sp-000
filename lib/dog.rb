@@ -7,8 +7,8 @@ class Dog
   end
 
   def self.all
-    @@all.each do |name|
-      puts name.name
+    @@all.each do |dog|
+      puts dog.name
     end
   end
 
