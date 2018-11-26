@@ -9,7 +9,7 @@ class Dog
 
   def self.all
     @@all.each do |name|
-      puts name(/[A-Z]\w+\z/)
+      puts name(/"[A-Z]\w+"/)
     end
   end
 
